@@ -275,5 +275,4 @@ This project was developed from a technical problem statement provided as part o
 B.Tech, Electronics and Communication Engineering  
 Indian Institute of Technology Patna
 
-- GitHub: [Rajith-kumar](https://github.com/Rajith-kumar)
-- LinkedIn: [rajithkumarmantrabuddi](https://www.linkedin.com/in/rajithkumarmantrabuddi/)
+- GitHub: [Karthik-prudhvi](https://github.com/karthikprudhvi02)
