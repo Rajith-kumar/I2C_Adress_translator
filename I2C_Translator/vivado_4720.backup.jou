@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Sep 28 13:33:27 2025
+# Process ID         : 4720
+# Current directory  : C:/I2C_Translator/I2C_Translator
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25312 C:\I2C_Translator\I2C_Translator\I2C_Translator.xpr
+# Log file           : C:/I2C_Translator/I2C_Translator/vivado.log
+# Journal file       : C:/I2C_Translator/I2C_Translator\vivado.jou
+# Running On         : robo-asus-SJ
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12650H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16858 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 17932 MB
+# Available Virtual  : 7988 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/I2C_Translator/I2C_Translator/I2C_Translator.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/I2C_Translator/I2C_Translator/tb_clock_behav.wcfg
+source tb_I2C_Translator.tcl
+run 5 ms
+run 5 ms
+close_sim

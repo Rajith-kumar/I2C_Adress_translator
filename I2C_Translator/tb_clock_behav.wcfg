@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_I2C_Translator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_I2C_Translator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="619.500001 us"></ZoomEndTime>
+      <Cursor1Time time="185.050000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="161"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="78" />
+   <wvobject fp_name="/tb_I2C_Translator/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/start_req" type="logic">
+      <obj_property name="ElementShortName">start_req</obj_property>
+      <obj_property name="ObjectShortName">start_req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/WDATA" type="array">
+      <obj_property name="ElementShortName">WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/RorW" type="logic">
+      <obj_property name="ElementShortName">RorW</obj_property>
+      <obj_property name="ObjectShortName">RorW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/SCL_select" type="logic">
+      <obj_property name="ElementShortName">SCL_select</obj_property>
+      <obj_property name="ObjectShortName">SCL_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/RDATA" type="array">
+      <obj_property name="ElementShortName">RDATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/RDATA1" type="array">
+      <obj_property name="ElementShortName">RDATA1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/WDATA1" type="array">
+      <obj_property name="ElementShortName">WDATA1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/ADDR1" type="array">
+      <obj_property name="ElementShortName">ADDR1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR1[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/RorW1" type="logic">
+      <obj_property name="ElementShortName">RorW1</obj_property>
+      <obj_property name="ObjectShortName">RorW1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/SDA" type="logic">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/SCL" type="logic">
+      <obj_property name="ElementShortName">SCL</obj_property>
+      <obj_property name="ObjectShortName">SCL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/SCL_select" type="logic">
+      <obj_property name="ElementShortName">SCL_select</obj_property>
+      <obj_property name="ObjectShortName">SCL_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/RorW" type="logic">
+      <obj_property name="ElementShortName">RorW</obj_property>
+      <obj_property name="ObjectShortName">RorW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/SCL" type="logic">
+      <obj_property name="ElementShortName">SCL</obj_property>
+      <obj_property name="ObjectShortName">SCL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/SDA" type="logic">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/shift_reg" type="array">
+      <obj_property name="ElementShortName">shift_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/SDA_out_en" type="logic">
+      <obj_property name="ElementShortName">SDA_out_en</obj_property>
+      <obj_property name="ObjectShortName">SDA_out_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/SDA_out" type="logic">
+      <obj_property name="ElementShortName">SDA_out</obj_property>
+      <obj_property name="ObjectShortName">SDA_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/counter" type="array">
+      <obj_property name="ElementShortName">counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/shifting" type="logic">
+      <obj_property name="ElementShortName">shifting</obj_property>
+      <obj_property name="ObjectShortName">shifting</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/scl_sync2" type="logic">
+      <obj_property name="ElementShortName">scl_sync2</obj_property>
+      <obj_property name="ObjectShortName">scl_sync2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/scl_sync1" type="logic">
+      <obj_property name="ElementShortName">scl_sync1</obj_property>
+      <obj_property name="ObjectShortName">scl_sync1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/SCL_Rise" type="logic">
+      <obj_property name="ElementShortName">SCL_Rise</obj_property>
+      <obj_property name="ObjectShortName">SCL_Rise</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/SCL_Fall" type="logic">
+      <obj_property name="ElementShortName">SCL_Fall</obj_property>
+      <obj_property name="ObjectShortName">SCL_Fall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/START" type="array">
+      <obj_property name="ElementShortName">START[3:0]</obj_property>
+      <obj_property name="ObjectShortName">START[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/ADDRESS_SHIFTING" type="array">
+      <obj_property name="ElementShortName">ADDRESS_SHIFTING[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_SHIFTING[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/ADDRESS_ACK" type="array">
+      <obj_property name="ElementShortName">ADDRESS_ACK[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_ACK[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/WDATA_SHIFTING" type="array">
+      <obj_property name="ElementShortName">WDATA_SHIFTING[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA_SHIFTING[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/WDATA_ACK" type="array">
+      <obj_property name="ElementShortName">WDATA_ACK[3:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA_ACK[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/RDATA_SHIFTING" type="array">
+      <obj_property name="ElementShortName">RDATA_SHIFTING[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA_SHIFTING[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/RDATA_ACK" type="array">
+      <obj_property name="ElementShortName">RDATA_ACK[3:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA_ACK[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/STOP" type="array">
+      <obj_property name="ElementShortName">STOP[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STOP[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/SCL_in" type="logic">
+      <obj_property name="ElementShortName">SCL_in</obj_property>
+      <obj_property name="ObjectShortName">SCL_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/SDA" type="logic">
+      <obj_property name="ElementShortName">SDA</obj_property>
+      <obj_property name="ObjectShortName">SDA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/read_data" type="array">
+      <obj_property name="ElementShortName">read_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/addr" type="array">
+      <obj_property name="ElementShortName">addr[6:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/RorW" type="logic">
+      <obj_property name="ElementShortName">RorW</obj_property>
+      <obj_property name="ObjectShortName">RorW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/SDA_out" type="logic">
+      <obj_property name="ElementShortName">SDA_out</obj_property>
+      <obj_property name="ObjectShortName">SDA_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/SDA_out_en" type="logic">
+      <obj_property name="ElementShortName">SDA_out_en</obj_property>
+      <obj_property name="ObjectShortName">SDA_out_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/counter" type="array">
+      <obj_property name="ElementShortName">counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/shift_reg" type="array">
+      <obj_property name="ElementShortName">shift_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_reg[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/sda_sync1" type="logic">
+      <obj_property name="ElementShortName">sda_sync1</obj_property>
+      <obj_property name="ObjectShortName">sda_sync1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/sda_sync2" type="logic">
+      <obj_property name="ElementShortName">sda_sync2</obj_property>
+      <obj_property name="ObjectShortName">sda_sync2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/scl_sync1" type="logic">
+      <obj_property name="ElementShortName">scl_sync1</obj_property>
+      <obj_property name="ObjectShortName">scl_sync1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/scl_sync2" type="logic">
+      <obj_property name="ElementShortName">scl_sync2</obj_property>
+      <obj_property name="ObjectShortName">scl_sync2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/SCL_Rise" type="logic">
+      <obj_property name="ElementShortName">SCL_Rise</obj_property>
+      <obj_property name="ObjectShortName">SCL_Rise</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/SCL_Fall" type="logic">
+      <obj_property name="ElementShortName">SCL_Fall</obj_property>
+      <obj_property name="ObjectShortName">SCL_Fall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/start_condition" type="logic">
+      <obj_property name="ElementShortName">start_condition</obj_property>
+      <obj_property name="ObjectShortName">start_condition</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/stop_condition" type="logic">
+      <obj_property name="ElementShortName">stop_condition</obj_property>
+      <obj_property name="ObjectShortName">stop_condition</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/ADDRESS_SHIFTING" type="array">
+      <obj_property name="ElementShortName">ADDRESS_SHIFTING[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_SHIFTING[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/ADDRESS_ACK" type="array">
+      <obj_property name="ElementShortName">ADDRESS_ACK[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_ACK[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/WDATA_SHIFTING" type="array">
+      <obj_property name="ElementShortName">WDATA_SHIFTING[2:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA_SHIFTING[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/WDATA_ACK" type="array">
+      <obj_property name="ElementShortName">WDATA_ACK[2:0]</obj_property>
+      <obj_property name="ObjectShortName">WDATA_ACK[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/RDATA_SHIFTING" type="array">
+      <obj_property name="ElementShortName">RDATA_SHIFTING[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA_SHIFTING[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/RDATA_ACK" type="array">
+      <obj_property name="ElementShortName">RDATA_ACK[2:0]</obj_property>
+      <obj_property name="ObjectShortName">RDATA_ACK[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/STOP" type="array">
+      <obj_property name="ElementShortName">STOP[2:0]</obj_property>
+      <obj_property name="ObjectShortName">STOP[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/scl/clk_in" type="logic">
+      <obj_property name="ElementShortName">clk_in</obj_property>
+      <obj_property name="ObjectShortName">clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/scl/clk_out" type="logic">
+      <obj_property name="ElementShortName">clk_out</obj_property>
+      <obj_property name="ObjectShortName">clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/start_hold" type="logic">
+      <obj_property name="ElementShortName">start_hold</obj_property>
+      <obj_property name="ObjectShortName">start_hold</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/slave/byte_count" type="array">
+      <obj_property name="ElementShortName">byte_count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/byte_count" type="array">
+      <obj_property name="ElementShortName">byte_count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_I2C_Translator/dut/master/bytes_sent" type="array">
+      <obj_property name="ElementShortName">bytes_sent[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bytes_sent[2:0]</obj_property>
+   </wvobject>
+</wave_config>
